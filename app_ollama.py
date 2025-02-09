@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 ##Langsmith Tracking
-os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
+os.environ["LANGCHAIN_API_KEY"] = os.getenv("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")
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGSMITH_PROJECT"] = "Q&A Chatbot With OLLAMA"
 
